@@ -1,0 +1,121 @@
+/* ================================================== */
+
+
+/*    stylesheet.css   -  Autor: Herr Dietzel       */
+
+
+/* ================================================== */
+
+
+/* Einspaltiges Design                                */
+
+header {
+    height: 140px;
+    background: #00FFFF;
+    margin: 0px;
+    padding: 0px;
+	text-align: center
+}
+
+#logo {
+	height: 30%
+}
+
+nav {
+    background: #FFD700;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+/* list items sollen nebeneinander (inline) und ohne Markierung der Links (none) dargestellt werden. */
+
+nav li {
+    /* li nebeneinander anzeigen */
+    display: inline;
+    /* ohne Aufzählungspunkte */
+    list-style-type: none;
+
+    padding: 5px 20px 5px 20px;
+}
+
+/* Link wird nicht mit blauer Farbe kenntlich gemacht*/
+
+nav a {
+    color: black;
+}
+
+
+#Intro {
+	background-color: #7FFFD4;
+	margin: 0px;
+	border: 0px;
+}
+
+
+
+
+
+
+
+#Regeln {
+	background-color: #7FFFD4;
+	margin: 0px;
+	border: 0px;
+	width: 50%;
+	float: left;
+ }
+ 
+ 
+ #Schizi {
+	 background-color: black;
+	 width: 30%;
+	 float: right;
+	 
+ }
+ 
+ #Video {
+	width: 30%;
+	float: right;
+	background: lime;
+ }
+ 
+ 
+ 
+ 
+ #Footer {
+	 background-color: cyan;
+	width: 80%;
+	float: right
+ }
+ 
+ 
+ 
+ 
+ body {
+	 background-color: #CD5C5C
+ }
+ 
+#rand1 {
+	background-color: #CD5C5C;
+	width: 10%;
+	height: 10000px;
+	float: left;
+}
+
+#rand1 h1 {
+	color:  #CD5C5C
+}
+
+#rand2 {
+	background-color: #CD5C5C;
+	width: 10%;
+	height: 10000px;
+	float: right;
+}
+
+#rand2 h1 {
+	color:  #CD5C5C
+}
+
+
